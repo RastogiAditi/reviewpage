@@ -1,0 +1,47 @@
+.reviewbox {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 20px;
+  list-style: none;
+}
+.rform {
+  display: flex;
+  flex-direction: column;
+}
+
+.rform label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.rform input,
+.rform textarea {
+  margin-bottom: 16px;
+  padding: 8px;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 20px;
+  justify-content: center;
+  align-items: center; 
+  gap: 20px;
+}
+.deletebutton{
+    background-color: rgb(225, 148, 47);
+    border: none;
+  color: white;
+  padding: 10px 0px;
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  width: 20%; 
+}
